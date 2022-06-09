@@ -7,7 +7,7 @@ Pronounced "grrrngg".
 ## Installation
 
 ```bash
-npm i gnrgn
+npm i gnrng
 ```
 
 _or_
