@@ -1,0 +1,6 @@
+{
+  "customEsbuildConfig": {
+    "bundle": true,
+    "minify": true
+  }
+}

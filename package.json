@@ -1,7 +1,7 @@
 {
-  "name": "tiny-rng",
-  "version": "2.0.0",
-  "description": "A tiny seeded random number generator.",
+  "name": "gnrng",
+  "version": "1.0.0",
+  "description": "A minimal seeded random number generator.",
   "main": "dist/index.js",
   "author": "Steve Ruiz <steveruizok@gmail.com>",
   "license": "MIT",
