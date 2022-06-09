@@ -1,6 +1,6 @@
 {
   "name": "gnrng",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A minimal seeded random number generator.",
   "main": "dist/index.js",
   "author": "Steve Ruiz <steveruizok@gmail.com>",
@@ -8,16 +8,18 @@
   "scripts": {
     "build": "NODE_ENV=production && lfg",
     "dev": "lfg -d",
-    "test": "jest",
-    "version": "yarn changeset version",
-    "changeset": "changeset"
+    "test": "jest"
   },
+  "keywords": [
+    "seeded",
+    "random",
+    "number",
+    "generator"
+  ],
   "devDependencies": {
-    "@changesets/cli": "^2.22.0",
     "@swc-node/jest": "^1.5.2",
     "@tldraw/lfg": "^1.1.1",
     "@types/jest": "^28.1.1",
-    "changeset": "^0.2.6",
     "jest": "^28.1.1",
     "typescript": "^4.7.3"
   }
